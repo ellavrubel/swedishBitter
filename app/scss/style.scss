@@ -1,0 +1,93 @@
+@import "vars.scss";
+@import "global.scss";
+
+
+// head
+
+.head{
+  &__container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__inner{
+    display: flex;
+  }
+  &__logo{
+    padding-top: 40px;
+  }
+  &__text{
+    padding-top: 31px;
+    font-size: 16px;
+    color: #9a9a9a;
+    margin-left: 40px;
+    flex: 0 0 60%;
+  }
+  &__phone{
+    max-width: 203px;
+    padding-top: 36px;
+    text-align: right;
+    .phone{
+      color: #303030;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .text{
+      font-size: 12px;
+      color: #9a9a9a;
+
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media.scss";
