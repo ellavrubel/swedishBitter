@@ -40,7 +40,7 @@
                 <p class="header__text">Не имеет аналогов в мире по оздоровительной силе и широте лечебных свойств</p>
             </div>
             <div class="header__content-form">
-                <p class="content__form-text">Узнайте подробнее о бальзаме</p>
+                <p class="subtitle content__form-text">Узнайте подробнее о бальзаме</p>
                 <div class="content__form-inputs">
                     <input class="name" type="text" placeholder="Имя">
                     <input class="tel" type="tel" placeholder="Телефон">
@@ -81,30 +81,118 @@
 <section class="list">
     <div class="list__wrapper">
         <div class="list__text">
-            <p class="list__text-title">Что из этого списка вы находите у себя?</p>
-            <p class="list__text-item1"><span>01.</span> Сниженный тонус, не хватает энергии</p>
-            <p class="list__text-item2"><span>02.</span> Прыщи, бородавки и растяжки</p>
-            <p class="list__text-item3"><span>03.</span> Слабая память и концентрация</p>
-            <p class="list__text-item4"><span>04.</span> Болеете чаще раза в год?</p>
-            <p class="list__text-item5"><span>05.</span>  Головные боли</p>
+            <h3 class="title list__text--title">Что из этого списка вы находите у себя?</h3>
+            <p class="list__text-item1 active" data-id="1"><span>01.</span> Сниженный тонус, не хватает энергии</p>
+            <p class="list__text-item2" data-id="2"><span>02.</span> Прыщи, бородавки и растяжки</p>
+            <p class="list__text-item3" data-id="3"><span>03.</span> Слабая память и концентрация</p>
+            <p class="list__text-item4" data-id="4"><span>04.</span> Болеете чаще раза в год?</p>
+            <p class="list__text-item5" data-id="5"><span>05.</span>  Головные боли</p>
             <div class="list__text-items-wrapper">
-                <p class="list__text-item6"><span class="list2">06.</span> Синяки, шишки, ожоги, порезы долго не проходят</p>
-                <p class="list__text-item7"><span class="list2">07.</span> Плохо засыпаете и часто просыпаетесь</p>
-                <p class="list__text-item8"><span class="list2">08.</span> Проблемы с желудком</p>
-                <p class="list__text-item9"><span class="list2">09.</span> Стресс</p>
+                <p class="list__text-item6" data-id="6"><span class="list2">06.</span> Синяки, шишки, ожоги, порезы долго не проходят</p>
+                <p class="list__text-item7" data-id="7"><span class="list2">07.</span> Плохо засыпаете и часто просыпаетесь</p>
+                <p class="list__text-item8" data-id="8"><span class="list2">08.</span> Проблемы с желудком</p>
+                <p class="list__text-item9" data-id="9"><span class="list2">09.</span> Стресс</p>
             </div>
         </div>
 
         <div class="list__img">
-            <div class="list__img-text">
-                <p class="list__img-text-description">Более 2 000 покупателей доказали эффективность "Шведской горечи" в каждом из этих случаев</p>
-                <a class="list__img-text-link" href="#">Читать отзывы</a>
+            <div class="list__content">
+                <div class="list-item item-1 active-list" id="1">01</div>
+                <div class="list-item item-2" id="2">02</div>
+                <div class="list-item item-3" id="3">03</div>
+                <div class="list-item item-4" id="4">04</div>
+                <div class="list-item item-5" id="5">05</div>
+                <div class="list-item item-6" id="6">06</div>
+                <div class="list-item item-7" id="7">07</div>
+                <div class="list-item item-8" id="8">08</div>
+                <div class="list-item item-9" id="9">09</div>
+            </div>
+            <div class="list__img-text-inner">
+                <div class="list__img-text">
+                    <p class="list__img-text-description">Более 2 000 покупателей доказали эффективность "Шведской горечи" в каждом из этих случаев</p>
+                    <a class="list__img-text-link" href="#">Читать отзывы</a>
+                </div>
             </div>
         </div>
     </div>
     <a class="btn list--btn" href="#">Избавиться от проблем <span class="arrow"><img src="img/arrow.png" alt=""></span> </a>
 </section>
 
+<section class="popular">
+    <div class="popular__inner">
+        <div class="popular__img" style="background-image: url(img/woman.jpg)">
+            <div class="popular__img-text-inner">
+                <div class="popular__img-text">
+                    <p class="popular__img-text-description">
+                        Даже в странах с очень высоким уровнем медицины, таких как Германия и Австрия, бальзам Шведская Горечь продается в каждой аптеке!
+                    </p>
+                    <p class="popular__img-text-link">
+                        <a class="btn popular--btn" href="#">Получить средство-панацею к себе в аптечку <span class="arrow"><img src="img/arrow.png" alt=""></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular__text">
+            <h3 class="title popular__text--title">
+                Почему Шведская Горечь завоевала такую популярность?
+            </h3>
+            <p class="subtitle popular__text--subtitle">
+                вот лишь несколько причин:
+            </p>
+            <ul class="popular__text-items" style="list-style-image: url(img/arrow-li.png)">
+                <li class="popular__text-item popular__text-item1">
+                    Эффективность как при наружном, так и внутреннем применении, более 40 показаний к применению
+                </li>
+                <li class="popular__text-item popular__text-item2">
+                    Случаи излечения с помощью сбора, когда традиционная медицина не смогла помочь
+                </li>
+                <li class="popular__text-item popular__text-item3">
+                    Постоянно выявляются новые целительные свойства бальзама
+                </li>
+                <li class="popular__text-item popular__text-item4">
+                    Эффект от применения можно увидеть сразу
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="history">
+    <div class="history__inner">
+        <div class="history__text">
+            <h3 class="title history__text--title">
+                Удивительная история возникновения бальзама
+            </h3>
+            <div class="history__text-wrapper">
+                <p> Далеко не у каждого лекарственного препарата есть такая удивительная история возникновения, уходящая к временам Парацельса, как у "Шведской горечи". Всю свою жизнь Парацельс искал элексир долголетия!</p>
+                <p> Он экспериментировал с рецептами, в которых горькие коренья комбинировались с разными лекарственными травами. Позднее, в 18 веке, на основании оставшихся после Парацельса исследований, шведский доктор - Клаус Замст - создал рецепт удивительного элексира, который он принимал всю свою жизнь. Кстати, умер доктор Замст на 104-м году жизни, упав с лошади при верховой езде.</p>
+                <p> В конце прошлого века рецепт попал к известной австрийской травнице - Марии Трэбэн,- которая, изучив и дополнив его, популяризовала в странах Европы. Теперь сбор трав "Шведская горечь" помогает людям по всему миру.</p>
+            </div>
+            <div class="history__email">
+                <p class="subtitle history--subtitle">
+                    оставьте свою почту и получайте рецепты молодости и здоровья каждую неделю
+                </p>
+                <input type="email" placeholder="E-mail">
+                <a class="btn history--btn" href="#">оставить почту<span class="arrow"><img src="img/arrow.png" alt=""></span>
+                </a>
+            </div>
+        </div>
+        <div class="history__img" style="background-image: url(img/red_hat_man.jpg)"></div>
+    </div>
+</section>
+
+<section class="quote">
+    <div class="quote__inner">
+        <div class="quote__bg1" style="background-image: url(img/quote-bg1.png)"></div>
+        <div class="quote__text-wrapper">
+            <p class="quote__text"> "Кто принимает бальзам утром и вечером, тому не нужны другие лекарства, так как он укрепляет тело, оживляет нервы и освежает кровь, снимает дрожь в руках и ногах. Тело остается упругим, лицо молодым и красивым"</p>
+            <p class="quote__author"> Автор бальзама, Доктор Клауст Земст <span class="quote__date">/1620-1724г./</span> </p>
+        </div>
+        <div class="quote__bg2" style="background-image: url(img/quote-bg2.png)"></div>
+    </div>
+</section>
 
 
 
