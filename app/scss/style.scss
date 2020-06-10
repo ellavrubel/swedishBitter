@@ -123,12 +123,7 @@
 
 .stat{
 
-  padding: 80px 0 120px;
-
-  &__container{
-    max-width: 1140px;
-    margin: 0 auto;
-  }
+  padding: 80px 0 264px;
 
   &__inner{
     display: flex;
@@ -171,12 +166,114 @@
   &__item-text{
     padding-left: 45px;
   }
+}
 
+// list
 
+.list{
+  &--title{
+    max-width: 499px;
+    padding-bottom: 50px;
+  }
+
+  &__container-fluid{
+    max-width: 1720px;
+    margin: 0 auto;
+    background-color: #f6f9f3;
+    position: relative;
+  }
+
+  &__text{
+    span{
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      color: #a4c58c;
+      font-weight: 600;
+      margin-right: 22px;
+    }
+    p{
+      padding: 15px 10px 15px 0;
+      max-height: 70px;
+    }
+    &-item1,
+    &-item2,
+    &-item3,
+    &-item4,
+    &-item5{
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      color: #303030;
+      font-weight: 600;
+      border-bottom: 1px solid #e6efde;
+      max-width: 612px;
+      text-transform: uppercase;
+
+    }
+    &-item6,
+    &-item7,
+    &-item8,
+    &-item9{
+      line-height: 20px;
+      color: #303030;
+      flex: 0 0 50%;
+      display: flex;
+      border-bottom: 1px solid #e6efde;
+      span{
+        display: block;
+        font-size: 12px;
+      }
+    }
+    &-item6,
+    &-item7{
+      border-right: 1px solid #e6efde;
+    }
+    &-item8,
+    &-item9{
+      span{
+        margin-left: 40px;
+      }
+    }
+
+    &-items-wrapper{
+      max-width: 612px;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+      }
+    }
+
+  .list__text-item.active{
+    position: relative;
+    &::after{
+      content: "";
+      position: absolute;
+      right: 20px;
+      background-image: url("../img/list-arrow.svg");
+      background-repeat: no-repeat;
+      width: 11px;
+      height: 17px;
+    }
+  }
+
+  &__img{
+    width: 500px;
+    height: 689px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: -292px;
+    right: 196px;
+  }
 
 
 
 }
+
+
+
 
 
 
