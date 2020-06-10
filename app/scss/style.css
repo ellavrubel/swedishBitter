@@ -227,7 +227,7 @@ input {
   color: #303030;
   font-weight: 600;
   border-bottom: 1px solid #e6efde;
-  max-width: 612px;
+  max-width: 650px;
   text-transform: uppercase;
 }
 .list__text-item6, .list__text-item7, .list__text-item8, .list__text-item9 {
@@ -248,7 +248,7 @@ input {
   margin-left: 40px;
 }
 .list__text-items-wrapper {
-  max-width: 612px;
+  max-width: 650px;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 30px;
@@ -273,7 +273,7 @@ input {
   background-position: top center;
   position: absolute;
   top: -292px;
-  right: 196px;
+  right: 270px;
 }
 
 /*# sourceMappingURL=style.css.map */
