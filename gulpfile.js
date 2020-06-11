@@ -40,6 +40,16 @@
             .pipe(browserSync.reload({stream: true}))
     });
 
+    gulp.task('js', function () {
+        return gulp.src(
+            'node_modules/jquery/dist/jquery.min.js'
+            )
+            .pipe(concat('libs.min.js'))
+            .pipe(uglify())
+            .pipe(gulp.dest('app/js'))
+            .pipe(browserSync.reload({stream: true}))
+    });
+
     gulp.task('script', function () {
         return gulp.src('app/js/*.js')
             .pipe(browserSync.reload({stream: true}))
@@ -79,4 +89,4 @@
 
     gulp.task('build', gulp.series('clean', 'export'));
 
-    gulp.task('default', gulp.parallel('css', 'scss', 'browser-sync', 'watch'));
+    gulp.task('default', gulp.parallel('css', 'js', 'scss', 'browser-sync', 'watch'));

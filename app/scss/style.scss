@@ -195,6 +195,7 @@
     p{
       padding: 15px 10px 15px 0;
       max-height: 70px;
+      cursor: pointer;
     }
     &-item1,
     &-item2,
@@ -267,6 +268,40 @@
     top: -292px;
     right: 270px;
   }
+  &-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 9px solid #f3f7f0;
+    background-color: #a5c989;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #f3f7f0;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px;
+    display: none;
+    &:first-child{
+      display: block;
+    }
+  }
+  &__img-text-inner{
+    height: 190px;
+    width: 415px;
+    background-color: #f6f9f3;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+  }
+  &__img-text{
+    border: 1px solid #c5dab5;
+    padding: 45px 20px 45px 50px;
+    &__-description{
+      line-height: 24px;
+    }
+  }
+
 
 
 
