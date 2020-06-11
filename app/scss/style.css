@@ -266,6 +266,9 @@ input {
   width: 11px;
   height: 17px;
 }
+.list .list__text-item6.list__text-item.active::after {
+  display: none;
+}
 .list__img {
   width: 500px;
   height: 689px;
@@ -289,6 +292,7 @@ input {
   font-weight: 600;
   text-align: center;
   padding: 6px;
+  position: absolute;
   display: none;
 }
 .list-item:first-child {
@@ -304,10 +308,70 @@ input {
 }
 .list__img-text {
   border: 1px solid #c5dab5;
-  padding: 45px 20px 45px 50px;
+  padding: 45px 20px 64px 50px;
+  position: relative;
 }
 .list__img-text__-description {
   line-height: 24px;
+}
+.list .item-1 {
+  top: 133px;
+  left: 225px;
+}
+.list .item-2 {
+  top: 288px;
+  left: 196px;
+}
+.list .item-3 {
+  top: 38px;
+  left: 224px;
+}
+.list .item-4 {
+  top: 85px;
+  left: 224px;
+}
+.list .item-5 {
+  top: 38px;
+  left: 224px;
+}
+.list .item-6 {
+  top: 153px;
+  left: 165px;
+}
+.list .item-7 {
+  top: 108px;
+  left: 165px;
+}
+.list .item-8 {
+  top: 192px;
+  left: 225px;
+}
+.list .item-9 {
+  top: 19px;
+  left: 225px;
+}
+.list__img-text-link {
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #7eb252;
+  font-weight: 600;
+  text-decoration: underline;
+  position: absolute;
+  bottom: -16px;
+  background-color: #f6f9f3;
+}
+.list__button-inner {
+  position: relative;
+  margin: 40px auto 250px;
+  max-width: 1140px;
+}
+.list--btn {
+  padding: 20px 100px 20px 120px;
+  position: absolute;
+  right: -20px;
+  top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
