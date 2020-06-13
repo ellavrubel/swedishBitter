@@ -488,4 +488,21 @@ input {
   margin-left: 16px;
 }
 
+.quote__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.quote__bg1, .quote__text-wrapper, .quote__bg2 {
+  flex: 0 0 33.33%;
+}
+.quote__bg1, .quote__bg2 {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -350px center;
+}
+.quote__bg2 {
+  background-position: 350px center;
+}
+
 /*# sourceMappingURL=style.css.map */

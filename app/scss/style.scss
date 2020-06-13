@@ -364,7 +364,6 @@
 
   }
   &--btn{
-    //display: inline-block;
     padding: 20px 100px 20px 120px;
     position: absolute;
     right: -20px;
@@ -485,7 +484,30 @@
     span{
       margin-left: 16px;
     }
+  }
+}
 
+// quote
+
+.quote{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bg1,
+  &__text-wrapper,
+  &__bg2{
+    flex: 0 0 33.33%;
+  }
+  &__bg1,
+  &__bg2{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -350px center;
+  }
+  &__bg2{
+    background-position: 350px center;
   }
 }
 
