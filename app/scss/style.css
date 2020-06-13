@@ -24,6 +24,7 @@ p {
 
 input {
   border: none;
+  outline: none;
 }
 
 .container {
@@ -428,6 +429,63 @@ input {
 }
 .popular .popular__text-item:not(:last-child) {
   padding-bottom: 42px;
+}
+
+.history {
+  padding-bottom: 50px;
+}
+.history__inner {
+  display: flex;
+  justify-content: center;
+}
+.history__text {
+  flex: 0 0 60%;
+  margin-right: -100px;
+  position: relative;
+  line-height: 24px;
+}
+.history__img {
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 774px;
+  height: 920px;
+}
+.history__text--title {
+  max-width: 850px;
+  margin: 103px 113px 38px 273px;
+}
+.history__text-wrapper {
+  max-width: 977px;
+  background-color: #f6f9f3;
+  padding: 23px 49px 35px 270px;
+}
+.history__text-paragraph {
+  padding: 28px 0;
+}
+.history__email {
+  width: 370px;
+  padding-top: 45px;
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}
+.history__email input {
+  width: 100%;
+  border-bottom: 1px solid #a8c48c;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.history__email input::placeholder {
+  font-size: 14px;
+  color: #a8c48c;
+}
+.history--btn {
+  display: block;
+  margin-top: 34px;
+  padding: 22px 72px;
+}
+.history--btn span {
+  margin-left: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
