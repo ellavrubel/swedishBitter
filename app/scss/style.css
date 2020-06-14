@@ -592,4 +592,30 @@ input {
   left: 21%;
 }
 
+.ingredients--container {
+  max-width: 1172px;
+  margin: 0 auto;
+}
+.ingredients__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ingredients__item {
+  width: 270px;
+  height: 270px;
+  margin: 15px;
+}
+.ingredients__item3-text {
+  width: 540px;
+}
+.ingredients__item1, .ingredients__item4, .ingredients__item8 {
+  margin-left: 0;
+}
+.ingredients__item7, .ingredients__item11, .ingredients__item13 {
+  margin-right: 0;
+}
+.ingredients__item12-text-wrapper {
+  flex: 0 0 70%;
+}
+
 /*# sourceMappingURL=style.css.map */

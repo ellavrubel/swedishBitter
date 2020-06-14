@@ -604,7 +604,39 @@
   }
 }
 
+// ingredients
 
+.ingredients{
+  &--container{
+    max-width: 1172px;
+    margin: 0 auto;
+  }
+  &__inner{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item{
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+  }
+  &__item3-text{
+    width: 540px;
+  }
+  &__item1,
+  &__item4,
+  &__item8{
+    margin-left: 0;
+  }
+  &__item7,
+  &__item11,
+  &__item13{
+    margin-right: 0;
+  }
+  &__item12-text-wrapper{
+    flex: 0 0 70%;
+  }
+}
 
 
 
