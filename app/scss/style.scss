@@ -495,9 +495,8 @@
     justify-content: space-between;
   }
   &__bg1,
-  &__text-wrapper,
-  &__bg2{
-    flex: 0 0 33.33%;
+   &__bg2{
+    flex: 0 0 31%;
   }
   &__bg1,
   &__bg2{
@@ -508,6 +507,16 @@
   }
   &__bg2{
     background-position: 350px center;
+  }
+  &__text-wrapper{
+    border-bottom: 2px solid #cee0c2;
+  }
+  &__text{
+    font-size: 24px;
+    line-height: 40px;
+    color: #303030;
+    font-weight: 700;
+    text-align: center;
   }
 }
 

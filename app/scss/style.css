@@ -492,8 +492,8 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.quote__bg1, .quote__text-wrapper, .quote__bg2 {
-  flex: 0 0 33.33%;
+.quote__bg1, .quote__bg2 {
+  flex: 0 0 31%;
 }
 .quote__bg1, .quote__bg2 {
   height: 550px;
@@ -503,6 +503,16 @@ input {
 }
 .quote__bg2 {
   background-position: 350px center;
+}
+.quote__text-wrapper {
+  border-bottom: 2px solid #cee0c2;
+}
+.quote__text {
+  font-size: 24px;
+  line-height: 40px;
+  color: #303030;
+  font-weight: 700;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
