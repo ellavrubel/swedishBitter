@@ -607,9 +607,15 @@
 // ingredients
 
 .ingredients{
+  margin-top: 250px;
+
   &--container{
     max-width: 1172px;
     margin: 0 auto;
+  }
+  &--title{
+    max-width: 435px;
+    transform: translateY(-94px);
   }
   &__inner{
     display: flex;
@@ -631,7 +637,7 @@
       width: 228px;
       height: 228px;
       margin: 0 auto;
-      transform: translateY(-19px);
+      transform: translateY(19px);
       font-size: 14px;
       line-height: 20px;
       font-weight: 700;
@@ -644,6 +650,19 @@
       transition: all .5s ease-in-out;
     }
   }
+  &__list1{
+    line-height: 22px;
+  }
+
+  &__list1-item1 {
+    transform: translateY(-70px);
+    padding-left: 36px;
+  }
+    &__list1-item2{
+      transform: translateY(-38px);
+      padding-left: 38px;
+    }
+
 
   &__item3-text{
     width: 540px;
@@ -663,6 +682,18 @@
     flex-grow: 3;
     position: relative;
     background: none;
+    padding: 17px;
+  }
+  &__item12-text{
+    border: 1px solid #e4eddc;
+    padding: 26px 61px 58px 50px;
+    position: relative;
+    p{
+      margin-bottom: 15px;
+    }
+  }
+  &__list1-item12{
+    padding-left: 20px;
   }
   &__number{
     font-size: 14px;
@@ -680,6 +711,73 @@
     color: #a4c58c;
     position: absolute;
     transform: rotate(-90deg);
+  }
+  &__name1{
+    bottom: 81px;
+    right: -54px;
+  }
+  &__name2{
+    bottom: 52px;
+    right: -28px;
+  }
+  &__name3{
+    bottom: 98px;
+    right: -69px;
+  }
+  &__name4{
+    bottom: 58px;
+    right: -29px;
+  }
+  &__name5{
+    bottom: 81px;
+    right: -54px;
+  }
+  &__name6{
+    bottom: 69px;
+    right: -42px;
+  }
+  &__name7{
+    bottom: 53px;
+    right: -30px;
+  }
+  &__name8{
+    bottom: 68px;
+    right: -44px;
+  }
+  &__name9{
+    bottom: 81px;
+    right: -54px;
+  }
+  &__name10{
+    bottom: 69px;
+    right: -41px;
+  }
+  &__name11{
+    bottom: 65px;
+    right: -36px;
+  }
+  &--btn{
+    padding: 23px 50px 23px 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    img{
+      padding-left: 20px;
+    }
+  }
+  &__sign{
+    position: absolute;
+    left: 23%;top: 43%;
+    font-size: 250px;
+    letter-spacing: 13px;
+    line-height: 20px;
+    color: #cedfc0;
+    font-weight: bold;
+  }
+  &__text{
+    position: absolute;
+    left: 10%;top: 50%;
+    max-width: 108px;
 
   }
 }

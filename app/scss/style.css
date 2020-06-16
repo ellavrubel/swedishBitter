@@ -592,9 +592,16 @@ input {
   left: 21%;
 }
 
+.ingredients {
+  margin-top: 250px;
+}
 .ingredients--container {
   max-width: 1172px;
   margin: 0 auto;
+}
+.ingredients--title {
+  max-width: 435px;
+  transform: translateY(-94px);
 }
 .ingredients__inner {
   display: flex;
@@ -617,7 +624,7 @@ input {
   width: 228px;
   height: 228px;
   margin: 0 auto;
-  transform: translateY(-19px);
+  transform: translateY(19px);
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
@@ -628,6 +635,17 @@ input {
   align-items: center;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+}
+.ingredients__list1 {
+  line-height: 22px;
+}
+.ingredients__list1-item1 {
+  transform: translateY(-70px);
+  padding-left: 36px;
+}
+.ingredients__list1-item2 {
+  transform: translateY(-38px);
+  padding-left: 38px;
 }
 .ingredients__item3-text {
   width: 540px;
@@ -643,6 +661,18 @@ input {
   flex-grow: 3;
   position: relative;
   background: none;
+  padding: 17px;
+}
+.ingredients__item12-text {
+  border: 1px solid #e4eddc;
+  padding: 26px 61px 58px 50px;
+  position: relative;
+}
+.ingredients__item12-text p {
+  margin-bottom: 15px;
+}
+.ingredients__list1-item12 {
+  padding-left: 20px;
 }
 .ingredients__number {
   font-size: 14px;
@@ -659,6 +689,75 @@ input {
   color: #a4c58c;
   position: absolute;
   transform: rotate(-90deg);
+}
+.ingredients__name1 {
+  bottom: 81px;
+  right: -54px;
+}
+.ingredients__name2 {
+  bottom: 52px;
+  right: -28px;
+}
+.ingredients__name3 {
+  bottom: 98px;
+  right: -69px;
+}
+.ingredients__name4 {
+  bottom: 58px;
+  right: -29px;
+}
+.ingredients__name5 {
+  bottom: 81px;
+  right: -54px;
+}
+.ingredients__name6 {
+  bottom: 69px;
+  right: -42px;
+}
+.ingredients__name7 {
+  bottom: 53px;
+  right: -30px;
+}
+.ingredients__name8 {
+  bottom: 68px;
+  right: -44px;
+}
+.ingredients__name9 {
+  bottom: 81px;
+  right: -54px;
+}
+.ingredients__name10 {
+  bottom: 69px;
+  right: -41px;
+}
+.ingredients__name11 {
+  bottom: 65px;
+  right: -36px;
+}
+.ingredients--btn {
+  padding: 23px 50px 23px 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.ingredients--btn img {
+  padding-left: 20px;
+}
+.ingredients__sign {
+  position: absolute;
+  left: 23%;
+  top: 43%;
+  font-size: 250px;
+  letter-spacing: 13px;
+  line-height: 20px;
+  color: #cedfc0;
+  font-weight: bold;
+}
+.ingredients__text {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  max-width: 108px;
 }
 
 /*# sourceMappingURL=style.css.map */
