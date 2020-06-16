@@ -760,4 +760,39 @@ input {
   max-width: 108px;
 }
 
+.reviews {
+  padding-bottom: 200px;
+}
+.reviews--title {
+  padding: 202px 0 54px;
+}
+.reviews__content {
+  display: flex;
+  justify-content: center;
+}
+.reviews__tab {
+  padding: 30px;
+}
+.reviews__tab:first-child {
+  text-align: right;
+  flex: 0 0 45%;
+  padding-right: 202px;
+}
+.reviews__tab:nth-child(2) {
+  background: #fff;
+  flex: 0 0 55%;
+}
+.reviews__tab.active {
+  background-color: #f6f9f3;
+}
+.reviews #tab-2 {
+  display: none;
+}
+.reviews__container-text {
+  padding: 0 315px;
+}
+.reviews--container-fluid {
+  background-color: #f6f9f3;
+}
+
 /*# sourceMappingURL=style.css.map */

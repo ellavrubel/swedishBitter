@@ -778,9 +778,55 @@
     position: absolute;
     left: 10%;top: 50%;
     max-width: 108px;
-
   }
 }
+
+// reviews
+
+.reviews{
+  padding-bottom: 200px;
+  &--title{
+    padding: 202px 0 54px;
+  }
+  &__content{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__tab{
+
+    padding: 30px;
+
+    &:first-child{
+     text-align: right;
+      flex: 0 0 45%;
+      padding-right: 202px;
+
+    }
+    &:nth-child(2){
+      background: #fff;
+      flex: 0 0 55%;
+
+    }
+  }
+
+  &__tab.active{
+    background-color: #f6f9f3;
+  }
+  #tab-2{
+    display: none;
+  }
+  &__container-text{
+   padding: 0 315px;
+  }
+ &--container-fluid{
+   background-color: #f6f9f3;
+
+
+
+ }
+}
+
 
 
 
