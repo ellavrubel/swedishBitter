@@ -781,9 +781,11 @@ input {
 .reviews__tab:nth-child(2) {
   background: #fff;
   flex: 0 0 55%;
+  color: #c3c3c3;
 }
 .reviews__tab.active {
   background-color: #f6f9f3;
+  color: #96c072;
 }
 .reviews #tab-2 {
   display: none;
