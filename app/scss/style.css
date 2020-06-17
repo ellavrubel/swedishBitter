@@ -855,9 +855,11 @@ input {
   justify-content: center;
 }
 .participation__img {
-  height: 772px;
-  background-repeat: no-repeat;
-  background-position: left top;
+  max-height: 772px;
+  text-align: center;
+}
+.participation__img img {
+  width: 100%;
 }
 .participation__text-wrapper {
   background-color: #fff;
@@ -889,6 +891,68 @@ input {
   margin-top: 23px;
 }
 .participation--btn img {
+  padding-left: 20px;
+}
+
+.warranty {
+  padding-top: 273px;
+}
+.warranty--container-fluid {
+  background-color: #f6f9f3;
+  padding: 35px 0 92px;
+  position: relative;
+}
+.warranty__image {
+  width: 416px;
+  height: 644px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  top: -192px;
+  right: 18%;
+}
+.warranty__text {
+  flex: 0 0 30%;
+  max-width: 577px;
+  margin-left: 345px;
+}
+.warranty__block-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 46px;
+}
+.warranty__block {
+  border: 1px solid #e4eddc;
+  padding: 48px 48px 97px 54px;
+  position: relative;
+}
+.warranty__but {
+  width: 45px;
+  position: absolute;
+  top: -16px;
+  padding: 5px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #a4c58c;
+  font-weight: 700;
+}
+.warranty__p1, .warranty__p2 {
+  line-height: 22px;
+  color: #303030;
+}
+.warranty__p1 {
+  margin-bottom: 28px;
+}
+.warranty--btn {
+  padding: 24px 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.warranty--btn img {
   padding-left: 20px;
 }
 

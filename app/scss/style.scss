@@ -898,9 +898,11 @@
     justify-content: center;
   }
   &__img {
-    height: 772px;
-    background-repeat: no-repeat;
-    background-position: left top;
+    max-height: 772px;
+    text-align: center;
+    img{
+      width: 100%;
+    }
   }
 
   &__text-wrapper{
@@ -940,7 +942,76 @@
   }
 }
 
+// warranty
 
+.warranty{
+  padding-top: 273px;
+
+  &--container-fluid{
+    background-color: #f6f9f3;
+    padding: 35px 0 92px;
+    position: relative;
+  }
+  &__inner{
+
+  }
+  &__image{
+    width: 416px;
+    height: 644px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    top: -192px;
+    right: 18%;
+  }
+  &__text{
+    flex: 0 0 30%;
+    max-width: 577px;
+    margin-left: 345px;
+  }
+  &__block-wrapper{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 46px;
+  }
+  &__block{
+    border: 1px solid #e4eddc;
+    padding: 48px 48px 97px 54px;
+    position: relative;
+  }
+  &__but{
+    width: 45px;
+    position: absolute;
+    top: -16px;
+    padding: 5px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #a4c58c;
+    font-weight: 700;
+  }
+  &__p1,
+  &__p2{
+    line-height: 22px;
+    color: #303030;
+  }
+  &__p1{
+    margin-bottom: 28px;
+  }
+  &--btn {
+    padding: 24px 50px;
+    position: absolute;
+    bottom: 0; right: 0;
+
+    img {
+      padding-left: 20px;
+    }
+  }
+
+
+}
 
 
 
