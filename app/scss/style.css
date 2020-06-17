@@ -61,6 +61,22 @@ input {
   text-transform: uppercase;
 }
 
+.phone {
+  max-width: 203px;
+  text-align: right;
+}
+
+.phone-number {
+  color: #303030;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.phone-text {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
 .head {
   padding-bottom: 47px;
 }
@@ -83,18 +99,7 @@ input {
   flex: 0 0 60%;
 }
 .head__phone {
-  max-width: 203px;
   padding-top: 36px;
-  text-align: right;
-}
-.head__phone .phone {
-  color: #303030;
-  font-weight: 500;
-  font-size: 20px;
-}
-.head__phone .text {
-  font-size: 12px;
-  color: #9a9a9a;
 }
 
 .header {
@@ -954,6 +959,18 @@ input {
 }
 .warranty--btn img {
   padding-left: 20px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 41px;
+}
+.footer__secret, .footer__duty, .footer__agree {
+  font-size: 12px;
+  color: #9a9a9a;
+  text-decoration: underline;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

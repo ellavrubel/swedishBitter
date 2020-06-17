@@ -26,22 +26,13 @@
     flex: 0 0 60%;
   }
   &__phone{
-    max-width: 203px;
     padding-top: 36px;
-    text-align: right;
-    .phone{
-      color: #303030;
-      font-weight: 500;
-      font-size: 20px;
-    }
-    .text{
-      font-size: 12px;
-      color: #9a9a9a;
 
     }
+
   }
 
-}
+
 
 // header
 
@@ -1009,7 +1000,24 @@
       padding-left: 20px;
     }
   }
+}
 
+// footer
+
+.footer{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 41px;
+  }
+  &__secret,
+  &__duty,
+  &__agree{
+    font-size: 12px;
+    color: #9a9a9a;
+    text-decoration: underline;
+    padding-top: 10px;
+  }
 
 }
 
