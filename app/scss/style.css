@@ -761,7 +761,7 @@ input {
 }
 
 .reviews {
-  padding-bottom: 200px;
+  padding-bottom: 240px;
 }
 .reviews--title {
   padding: 202px 0 54px;
@@ -772,6 +772,9 @@ input {
 }
 .reviews__tab {
   padding: 30px;
+  cursor: pointer;
+  color: #c3c3c3;
+  background: #fff;
 }
 .reviews__tab:first-child {
   text-align: right;
@@ -779,9 +782,7 @@ input {
   padding-right: 164px;
 }
 .reviews__tab:nth-child(2) {
-  background: #fff;
   flex: 0 0 55%;
-  color: #c3c3c3;
 }
 .reviews__tab.active {
   background-color: #f6f9f3;
@@ -804,6 +805,8 @@ input {
 .reviews__item {
   flex: 0 0 40%;
   position: relative;
+  line-height: 22px;
+  color: #9a9a9a;
 }
 .reviews__item:first-child, .reviews__item:nth-child(2) {
   padding-bottom: 73px;
@@ -819,6 +822,74 @@ input {
 .reviews .author {
   padding-top: 40px;
   font-weight: bold;
+}
+.reviews__more {
+  font-size: 14px;
+  line-height: 24px;
+  color: #7eb252;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 42%;
+}
+.reviews--btn {
+  padding: 30px 20px;
+  margin-left: 30px;
+  position: absolute;
+  left: 52%;
+  top: -24px;
+}
+.reviews--btn img {
+  padding-left: 20px;
+}
+.reviews--container {
+  margin-top: 71px;
+  position: relative;
+}
+.reviews--container a {
+  display: inline-block;
+}
+
+.participation__inner {
+  display: flex;
+  justify-content: center;
+}
+.participation__img {
+  height: 772px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.participation__text-wrapper {
+  background-color: #fff;
+  padding: 24px;
+  transform: translateX(-305px);
+  align-self: center;
+  flex: 0 0 41%;
+}
+.participation__text {
+  border: 1px solid #e4eddc;
+  padding: 50px 40px 51px 72px;
+}
+.participation--title {
+  margin-top: 0;
+}
+.participation__p1 {
+  margin-bottom: 20px;
+}
+.participation__p1, .participation__p2 {
+  line-height: 22px;
+  color: #303030;
+}
+.participation--subtitle {
+  margin: 42px 0;
+}
+.participation--btn {
+  display: inline-block;
+  padding: 27px 25px 27px 36px;
+  margin-top: 23px;
+}
+.participation--btn img {
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
