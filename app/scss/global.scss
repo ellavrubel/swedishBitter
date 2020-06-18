@@ -55,10 +55,18 @@ input{
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: all .5s ease-in-out;
+  &:hover{
+    background-color: rgba(126, 178, 82, 0.21);
+    color: #7eb252;
+
+
+  }
 }
 .phone{
   max-width: 203px;
   text-align: right;
+  animation-iteration-count: infinite;
 }
 .phone-number {
   color: #303030;
