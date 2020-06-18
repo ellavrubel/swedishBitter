@@ -1,0 +1,64 @@
+
+
+@media (max-width: 1440px) {
+
+  .list {
+    &__img {
+      right: 112px;
+    }
+  }
+  .history {
+    &__text--title {
+      margin: -95px 113px 38px 273px;
+    }
+  }
+  .quote {
+    margin-bottom: 100px;
+
+    &__text-wrapper {
+      padding: 24px 10px 60px;
+    }
+  }
+  .advantages {
+    &__content {
+      left: 13%;
+    }
+  }
+  .ingredients {
+    margin-top: 191px;
+  }
+  .reviews {
+    &--title {
+      padding: 133px 0 54px;
+    }
+  }
+  .participation {
+    &__container-fluid {
+      max-width: 1200px;
+    }
+
+    &__img {
+      img {
+        width: 100%;
+        height: 82%;
+        display: inline-block;
+        padding-top: 95px;
+      }
+    }
+
+    &__text-wrapper {
+      flex: 0 0 58%;
+      transform: translateX(-172px);
+    }
+  }
+  .warranty {
+    padding-top: 194px;
+    &__text {
+    margin-left: 151px;
+    }
+    &__image{
+        right: 14%;
+    }
+  }
+
+}
