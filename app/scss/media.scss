@@ -89,6 +89,11 @@
       max-width: 1019px;
     }
   }
+  .reviews{
+    &--title{
+      padding: 55px 0 54px;
+    }
+  }
   .title{
     font-size: 36px;
     line-height: 43px;
@@ -113,3 +118,216 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+
+  .container{
+    max-width: 992px;
+  }
+
+  .header{
+    &__title{
+      font-size: 49px;
+    }
+    &__img{
+      transform: translate(114px, 26px);
+      img{
+        width: 91%;
+        height: auto;
+        }
+      }
+    &__content-wrapper{
+      margin-left: 154px;
+      }
+    &__text{
+      padding-bottom: 83px;
+      }
+    }
+  .stat{
+    &__item-number{
+        font-size: 25px;
+    }
+    &__item-text{
+      font-size: 15px;
+    }
+  }
+  .title{
+    font-size: 34px;
+    line-height: 37px;
+  }
+
+  .list{
+    &--title{
+      .list--title {
+        max-width: 412px;
+        padding-bottom: 30px;
+      }
+    }
+    &__text-item1,
+    &__text-item2,
+    &__text-item3,
+    &__text-item4,
+    &__text-item5{
+      font-size: 12px;
+    }
+    &__text-item6,
+    &__text-item7,
+    &__text-item8,
+    &__text-item9{
+     line-height: 13px;
+      font-size: 14px;
+    }
+    &__img{
+      width: 390px;
+    }
+    .item-1,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-8,
+    .item-9,{
+        left: 170px;
+    }
+    .item-2 {
+      top: 311px;
+    }
+    .item-6 {
+      left: 108px;
+    }
+    .item-7 {
+      top: 182px;
+      left: 171px;
+    }
+    &--btn{
+      right: 7px;
+    }
+  }
+  .popular{
+    &__img{
+      height: 539px;
+      &-text-inner{
+        right: -5px;
+      }
+    }
+    &__text-item:not(:last-child){
+      padding-bottom: 27px;
+    }
+  }
+  .history{
+    &__text-wrapper{
+      font-size: 13px;
+      padding: 23px 49px 35px 106px;
+    }
+    &__img{
+      height: 749px;
+    }
+  }
+
+  .quote{
+    margin-bottom: 12px;
+    &__bg1{
+        height: 535px;
+    }
+    &__bg2{
+      height: 851px;
+      background-position: 96px center;
+    }
+    &__author{
+      font-size: 16px;
+    }
+    &__text{
+      font-size: 19px;
+      line-height: 33px;
+    }
+  }
+
+  .advantages{
+    &--container-fluid{
+      height: 288px;
+    }
+    &--title{
+      max-width: 626px;
+    }
+    &__content{
+      max-width: 827px;
+      left: 15%;
+    }
+    &__number{
+      font-size: 117px;
+      top: 44%;
+    }
+    &__item{
+      height: 227px;
+    }
+    &__text1{
+      padding-top: 6px;
+    }
+    &__text2,
+    &__text3{
+      padding-top: 17px;
+    }
+  }
+
+  .ingredients{
+    &__item{
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

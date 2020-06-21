@@ -8,8 +8,6 @@
 .head{
   padding-bottom: 47px;
   &__container{
-    max-width: 1160px;
-    margin: 0 auto;
     padding: 0 15px;
   }
 
@@ -399,7 +397,7 @@
     font-weight: 600;
     width: 100%;
   }
-  .popular__text{
+  &__text{
     flex: 0 0 50%;
     &-inner{
       max-width: 504px;
