@@ -9,6 +9,7 @@
   padding-bottom: 47px;
   &__container{
     padding: 0 15px;
+    margin: 0 auto;
   }
 
   &__inner{
@@ -681,6 +682,9 @@
     border: 1px solid #e4eddc;
     padding: 26px 61px 58px 50px;
     position: relative;
+    ul{
+      list-style-image: url("../img/list-round.png");
+    }
     p{
       margin-bottom: 15px;
     }
@@ -945,9 +949,6 @@
     padding: 35px 0 92px;
     position: relative;
   }
-  &__inner{
-
-  }
   &__image{
     width: 416px;
     height: 644px;
@@ -958,7 +959,7 @@
     right: 18%;
   }
   &__text{
-    flex: 0 0 30%;
+    //flex: 0 0 30%;
     max-width: 577px;
     margin-left: 345px;
   }
