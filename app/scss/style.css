@@ -5644,10 +5644,52 @@ template {
     margin-top: -6px;
   }
   .history__text--title {
-    padding-top: 230px;
+    padding: 215px 0 49px;
     text-align: center;
     margin: 0 auto;
     max-width: 726px;
+  }
+  .history__text-wrapper {
+    font-size: 16px;
+    padding: 23px 70px 35px 27px;
+  }
+  .history__text-paragraph {
+    padding: 21px 0;
+  }
+  .history__email {
+    left: 10%;
+    bottom: -346px;
+  }
+
+  .quote {
+    margin-bottom: 0;
+  }
+  .quote__bg1, .quote__bg2 {
+    display: none;
+  }
+  .quote__inner {
+    justify-content: center;
+  }
+  .quote__text {
+    max-width: 79%;
+    margin: 0 auto;
+  }
+  .quote__text-wrapper {
+    flex: 0 0 96%;
+    padding: 32px 10px;
+    margin-top: 73px;
+  }
+
+  .advantages {
+    background-color: #f6f9f3;
+    padding-top: 100px;
+  }
+  .advantages--title {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .advantages__content {
+    left: 6%;
   }
 }
 

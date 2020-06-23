@@ -579,47 +579,56 @@
     }
   }
 
-  @media screen and (max-width: 992px){
-    .head{
+  @media screen and (max-width: 992px) {
+    .head {
       padding-bottom: 23px;
-      &__text{
+
+      &__text {
         flex: 1 1 10%;
       }
     }
 
-    .header{
+    .header {
       background-position: top right;
-      &__img{
+
+      &__img {
         transform: translate(35px, 10px);
       }
+
       &__content {
         &-text {
           max-width: 46%;
         }
+
         &-wrapper {
           margin-left: 78px;
           padding-top: 37px;
         }
-        &-form{
+
+        &-form {
           transform: translate(-46px, -40px);
         }
       }
     }
-    .stat{
+    .stat {
       padding: 40px 0 122px;
-      &__inner{
+
+      &__inner {
         flex-wrap: wrap;
         justify-content: center;
       }
-      &__item{
+
+      &__item {
         flex: 0 0 35%;
-        }
+      }
+
       &__item1,
-      &__item2{
+      &__item2 {
         padding-bottom: 73px;
       }
+
       &__item1,
-      &__item3{
+      &__item3 {
         margin-right: 30px;
         flex: 0 0 35%;
       }
@@ -639,12 +648,14 @@
       .item-9 {
         left: 443px;
       }
+
       .item-2 {
         left: 465px;
       }
     }
     .popular {
       padding-bottom: 0;
+
       &__text {
         &--title {
           width: 77%;
@@ -655,36 +666,89 @@
           padding: 42px 0 40px;
         }
       }
+
       &__img-text-inner {
         bottom: -14%;
         z-index: 11;
         right: 13%;
       }
     }
-    .history{
-      &__inner{
+    .history {
+      &__inner {
         flex-direction: column;
       }
-      &__img{
+
+      &__img {
         max-width: 351px;
         max-height: 416px;
         align-self: flex-end;
         margin-right: 23px;
       }
+
       &__text {
         background-color: #f6f9f3;
         margin-top: -6px;
 
         &--title {
-          padding-top: 230px;
+          padding: 215px 0 49px;
           text-align: center;
           margin: 0 auto;
           max-width: 726px;
         }
+
+        &-wrapper {
+          font-size: 16px;
+          padding: 23px 70px 35px 27px;
         }
 
+        &-paragraph {
+          padding: 21px 0;
+        }
+      }
 
+      &__email {
+        left: 10%;
+        bottom: -346px;
+      }
     }
+    .quote {
+      margin-bottom: 0;
+
+      &__bg1,
+      &__bg2 {
+        display: none;
+      }
+
+      &__inner {
+        justify-content: center;
+      }
+
+      &__text {
+        max-width: 79%;
+        margin: 0 auto;
+
+        &-wrapper {
+          flex: 0 0 96%;
+          padding: 32px 10px;
+          margin-top: 73px;
+        }
+      }
+    }
+    .advantages {
+      background-color: #f6f9f3;
+      padding-top: 100px;
+      &--title{
+        text-align: center;
+        margin: 0 auto;
+      }
+      &__content{
+        left: 6%;
+      }
+    }
+
+
+
+
 
 
 
