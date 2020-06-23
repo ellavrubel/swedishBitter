@@ -418,7 +418,7 @@
     }
 
     &__text {
-      flex: 0 0 58%;
+      flex: 1 1 58%;
     }
   }
 
@@ -457,7 +457,7 @@
         padding: 45px 20px 44px 50px;
       }
       &-text-inner{
-        right: 30%;
+        right: 27%;
       }
       &-text-link{
         left: 124px;
@@ -501,8 +501,14 @@
     }
     &--btn{
       right: 27%;
+      padding: 20px 57px 20px 90px;
     }
   }
+  .list__text-item.active{
+    &::after {
+      display: none;
+    }
+    }
 
   .popular{
     padding-bottom: 475px;
@@ -515,7 +521,7 @@
       flex: 0 0 100%;
       width: unset;
       &-woman{
-        width: 100%;
+        width: 100vw;
       }
       &-text-inner{
         right: 19%;
@@ -571,6 +577,134 @@
     &--container{
       max-width: 992px;
     }
+  }
+
+  @media screen and (max-width: 992px){
+    .head{
+      padding-bottom: 23px;
+      &__text{
+        flex: 1 1 10%;
+      }
+    }
+
+    .header{
+      background-position: top right;
+      &__img{
+        transform: translate(35px, 10px);
+      }
+      &__content {
+        &-text {
+          max-width: 46%;
+        }
+        &-wrapper {
+          margin-left: 78px;
+          padding-top: 37px;
+        }
+        &-form{
+          transform: translate(-46px, -40px);
+        }
+      }
+    }
+    .stat{
+      padding: 40px 0 122px;
+      &__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      &__item{
+        flex: 0 0 35%;
+        }
+      &__item1,
+      &__item2{
+        padding-bottom: 73px;
+      }
+      &__item1,
+      &__item3{
+        margin-right: 30px;
+        flex: 0 0 35%;
+      }
+    }
+    .list {
+      &--title {
+        padding-bottom: 52px;
+      }
+
+      .item-1,
+      .item-3,
+      .item-4,
+      .item-5,
+      .item-6,
+      .item-7,
+      .item-8,
+      .item-9 {
+        left: 443px;
+      }
+      .item-2 {
+        left: 465px;
+      }
+    }
+    .popular {
+      padding-bottom: 0;
+      &__text {
+        &--title {
+          width: 77%;
+          margin: -30px auto 0;
+        }
+
+        &--subtitle {
+          padding: 42px 0 40px;
+        }
+      }
+      &__img-text-inner {
+        bottom: -14%;
+        z-index: 11;
+        right: 13%;
+      }
+    }
+    .history{
+      &__inner{
+        flex-direction: column;
+      }
+      &__img{
+        max-width: 351px;
+        max-height: 416px;
+        align-self: flex-end;
+        margin-right: 23px;
+      }
+      &__text {
+        background-color: #f6f9f3;
+        margin-top: -6px;
+
+        &--title {
+          padding-top: 230px;
+          text-align: center;
+          margin: 0 auto;
+          max-width: 726px;
+        }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
 
 

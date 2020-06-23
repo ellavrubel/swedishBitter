@@ -4505,7 +4505,7 @@ template {
 }
 .history__img {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   width: 774px;
   height: 920px;
 }
@@ -5402,7 +5402,7 @@ template {
     padding: 0 23px;
   }
   .head__text {
-    flex: 0 0 58%;
+    flex: 1 1 58%;
   }
 
   .header__content-wrapper {
@@ -5440,7 +5440,7 @@ template {
     padding: 45px 20px 44px 50px;
   }
   .list__img-text-inner {
-    right: 30%;
+    right: 27%;
   }
   .list__img-text-link {
     left: 124px;
@@ -5483,6 +5483,11 @@ template {
   }
   .list--btn {
     right: 27%;
+    padding: 20px 57px 20px 90px;
+  }
+
+  .list__text-item.active::after {
+    display: none;
   }
 
   .popular {
@@ -5498,7 +5503,7 @@ template {
     width: unset;
   }
   .popular__img-woman {
-    width: 100%;
+    width: 100vw;
   }
   .popular__img-text-inner {
     right: 19%;
@@ -5547,6 +5552,102 @@ template {
 
   .footer--container {
     max-width: 992px;
+  }
+}
+@media screen and (max-width: 1084px) and (max-width: 992px) {
+  .head {
+    padding-bottom: 23px;
+  }
+  .head__text {
+    flex: 1 1 10%;
+  }
+
+  .header {
+    background-position: top right;
+  }
+  .header__img {
+    transform: translate(35px, 10px);
+  }
+  .header__content-text {
+    max-width: 46%;
+  }
+  .header__content-wrapper {
+    margin-left: 78px;
+    padding-top: 37px;
+  }
+  .header__content-form {
+    transform: translate(-46px, -40px);
+  }
+
+  .stat {
+    padding: 40px 0 122px;
+  }
+  .stat__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stat__item {
+    flex: 0 0 35%;
+  }
+  .stat__item1, .stat__item2 {
+    padding-bottom: 73px;
+  }
+  .stat__item1, .stat__item3 {
+    margin-right: 30px;
+    flex: 0 0 35%;
+  }
+
+  .list--title {
+    padding-bottom: 52px;
+  }
+  .list .item-1,
+.list .item-3,
+.list .item-4,
+.list .item-5,
+.list .item-6,
+.list .item-7,
+.list .item-8,
+.list .item-9 {
+    left: 443px;
+  }
+  .list .item-2 {
+    left: 465px;
+  }
+
+  .popular {
+    padding-bottom: 0;
+  }
+  .popular__text--title {
+    width: 77%;
+    margin: -30px auto 0;
+  }
+  .popular__text--subtitle {
+    padding: 42px 0 40px;
+  }
+  .popular__img-text-inner {
+    bottom: -14%;
+    z-index: 11;
+    right: 13%;
+  }
+
+  .history__inner {
+    flex-direction: column;
+  }
+  .history__img {
+    max-width: 351px;
+    max-height: 416px;
+    align-self: flex-end;
+    margin-right: 23px;
+  }
+  .history__text {
+    background-color: #f6f9f3;
+    margin-top: -6px;
+  }
+  .history__text--title {
+    padding-top: 230px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 726px;
   }
 }
 
