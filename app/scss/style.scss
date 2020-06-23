@@ -9,7 +9,6 @@
   padding-bottom: 47px;
   &__container{
     padding: 0 15px;
-    margin: 0 auto;
   }
 
   &__inner{
@@ -165,7 +164,7 @@
     padding-bottom: 50px;
   }
 
-  &__container-fluid{
+  &--container-fluid{
     background-color: #f6f9f3;
     position: relative;
   }
@@ -253,6 +252,7 @@
   &__img{
     width: 500px;
     height: 689px;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

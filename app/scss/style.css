@@ -4133,7 +4133,6 @@ template {
 }
 .head__container {
   padding: 0 15px;
-  margin: 0 auto;
 }
 .head__inner {
   display: flex;
@@ -4264,7 +4263,7 @@ template {
   max-width: 499px;
   padding-bottom: 50px;
 }
-.list__container-fluid {
+.list--container-fluid {
   background-color: #f6f9f3;
   position: relative;
 }
@@ -5391,6 +5390,163 @@ template {
   }
   .warranty__image {
     top: -70px;
+  }
+}
+@media screen and (max-width: 1084px) {
+  .container {
+    max-width: 855px;
+  }
+
+  .head__container {
+    max-width: unset;
+    padding: 0 23px;
+  }
+  .head__text {
+    flex: 0 0 58%;
+  }
+
+  .header__content-wrapper {
+    margin-left: 141px;
+  }
+
+  .stat {
+    padding: 80px 0 173px;
+  }
+  .stat__item2 {
+    flex: 0 0 19%;
+  }
+
+  .list--container {
+    max-width: 632px;
+  }
+  .list--title {
+    max-width: 424px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+  }
+  .list__img {
+    position: static;
+    width: 787px;
+    height: 592px;
+    background-color: #a4c58c;
+    margin: 0 auto;
+  }
+  .list__img img {
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+  }
+  .list__img-text {
+    padding: 45px 20px 44px 50px;
+  }
+  .list__img-text-inner {
+    right: 30%;
+  }
+  .list__img-text-link {
+    left: 124px;
+  }
+  .list .item-1 {
+    left: 517px;
+    top: 493px;
+  }
+  .list .item-2 {
+    top: 616px;
+    left: 492px;
+  }
+  .list .item-3 {
+    top: 436px;
+    left: 517px;
+  }
+  .list .item-4 {
+    top: 557px;
+    left: 517px;
+  }
+  .list .item-5 {
+    top: 436px;
+    left: 517px;
+  }
+  .list .item-6 {
+    top: 489px;
+    left: 563px;
+  }
+  .list .item-7 {
+    top: 419px;
+    left: 517px;
+  }
+  .list .item-8 {
+    top: 535px;
+    left: 517px;
+  }
+  .list .item-9 {
+    top: 502px;
+    left: 517px;
+  }
+  .list--btn {
+    right: 27%;
+  }
+
+  .popular {
+    padding-bottom: 475px;
+  }
+  .popular__inner {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .popular__img {
+    order: 2;
+    flex: 0 0 100%;
+    width: unset;
+  }
+  .popular__img-woman {
+    width: 100%;
+  }
+  .popular__img-text-inner {
+    right: 19%;
+    bottom: -38%;
+  }
+  .popular__text {
+    order: 1;
+    flex: 0 0 100%;
+  }
+  .popular__text--title {
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .popular__text--subtitle {
+    padding: 53px 0 50px;
+    text-align: center;
+  }
+  .popular__text-items {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .popular__text-inner {
+    max-width: unset;
+  }
+
+  .history__text--title {
+    margin: -95px 113px 17px 273px;
+  }
+
+  .participation--btn {
+    padding: 22px 4px 22px 9px;
+  }
+  .participation--btn img {
+    margin-left: -18px;
+  }
+
+  .reviews--title {
+    padding: 55px 0 19px;
+  }
+
+  .warranty__image {
+    right: 8%;
+  }
+
+  .footer--container {
+    max-width: 992px;
   }
 }
 
