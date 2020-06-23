@@ -683,6 +683,9 @@
         max-height: 416px;
         align-self: flex-end;
         margin-right: 23px;
+        position: relative;
+        z-index: 20;
+        transform: translateY(-31px);
       }
 
       &__text {
@@ -708,7 +711,7 @@
 
       &__email {
         left: 10%;
-        bottom: -346px;
+        bottom: -318px;
       }
     }
     .quote {
@@ -730,7 +733,7 @@
         &-wrapper {
           flex: 0 0 96%;
           padding: 32px 10px;
-          margin-top: 73px;
+          margin-top: 58px;
         }
       }
     }
