@@ -748,6 +748,113 @@
         left: 6%;
       }
     }
+    .ingredients{
+      margin-top: 116px;
+      &--title{
+        margin-bottom: 0;
+      }
+      &__item3-text{
+        ul {
+          padding-left: 177px;
+          max-width: 84%;
+          margin-bottom: 0;
+        }
+      }
+      &__item1,
+      &__item2,
+      &__item4{
+        margin-top: 0;
+      }
+      &--btn{
+        padding: 11px;
+      }
+      &__list1-item2{
+        transform: translateY(-38px);
+      }
+    }
+
+    .reviews {
+      padding-bottom: 0;
+      &--title {
+        text-align: center;
+      }
+
+      &__container-text {
+        padding: 54px 144px 250px;
+      }
+
+      &--btn {
+        left: 20%;
+        top: -193px;
+      }
+
+      &__more {
+        left: 44%;
+        top: -238px;
+      }
+
+      &__tab:first-child {
+        flex: 0 0 61%;
+        padding-right: 90px;
+      }
+    }
+
+    .participation{
+      &__img{
+        display: none;
+      }
+      &__text-wrapper{
+        flex: 0 0 82%;
+        margin: 0  auto;
+        transform: translateX(12px);
+      }
+      &--btn{
+        padding: 22px 31px 22px 48px;
+      }
+    }
+    .warranty{
+      position: relative;
+      &--container-fluid{
+        padding: 35px 0 80px;
+      }
+      &--title{
+        text-align: center;
+        margin: 0 0 53px;
+      }
+      &__image{
+        width: 281px;
+        height: 431px;
+        top: 143px;
+      }
+      &--subtitle{
+        position: absolute;
+        left: 25%;top: 9%;
+        max-width: 520px;
+        text-align: center;
+      }
+      &__block-wrapper{
+        margin-top: 125px;
+      }
+      &__text{
+        margin-left: 107px;
+      }
+    }
+    .footer{
+      &--container{
+        max-width: 828px;
+      }
+      &__links {
+        a {
+          display: block;
+          text-align: center;
+          margin-bottom: 18px;
+        }
+      }
+      &__logo,
+      &__phone{
+        margin-top: 34px;
+      }
+    }
 
 
 

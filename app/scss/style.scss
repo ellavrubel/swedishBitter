@@ -953,7 +953,7 @@
     width: 416px;
     height: 644px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     position: absolute;
     top: -192px;
     right: 18%;
@@ -1020,6 +1020,8 @@
     font-size: 12px;
     color: #9a9a9a;
     text-decoration: underline;
+  }
+  &__links{
     padding-top: 10px;
   }
 

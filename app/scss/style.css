@@ -60,6 +60,7 @@ input {
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out;
+  border-radius: 3px;
 }
 .btn:hover {
   background-color: rgba(126, 178, 82, 0.21);
@@ -4968,7 +4969,7 @@ template {
   width: 416px;
   height: 644px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: absolute;
   top: -192px;
   right: 18%;
@@ -5029,6 +5030,8 @@ template {
   font-size: 12px;
   color: #9a9a9a;
   text-decoration: underline;
+}
+.footer__links {
   padding-top: 10px;
 }
 
@@ -5693,6 +5696,102 @@ template {
   }
   .advantages__content {
     left: 6%;
+  }
+
+  .ingredients {
+    margin-top: 116px;
+  }
+  .ingredients--title {
+    margin-bottom: 0;
+  }
+  .ingredients__item3-text ul {
+    padding-left: 177px;
+    max-width: 84%;
+    margin-bottom: 0;
+  }
+  .ingredients__item1, .ingredients__item2, .ingredients__item4 {
+    margin-top: 0;
+  }
+  .ingredients--btn {
+    padding: 11px;
+  }
+  .ingredients__list1-item2 {
+    transform: translateY(-38px);
+  }
+
+  .reviews {
+    padding-bottom: 0;
+  }
+  .reviews--title {
+    text-align: center;
+  }
+  .reviews__container-text {
+    padding: 54px 144px 250px;
+  }
+  .reviews--btn {
+    left: 20%;
+    top: -193px;
+  }
+  .reviews__more {
+    left: 44%;
+    top: -238px;
+  }
+  .reviews__tab:first-child {
+    flex: 0 0 61%;
+    padding-right: 90px;
+  }
+
+  .participation__img {
+    display: none;
+  }
+  .participation__text-wrapper {
+    flex: 0 0 82%;
+    margin: 0 auto;
+    transform: translateX(12px);
+  }
+  .participation--btn {
+    padding: 22px 31px 22px 48px;
+  }
+
+  .warranty {
+    position: relative;
+  }
+  .warranty--container-fluid {
+    padding: 35px 0 80px;
+  }
+  .warranty--title {
+    text-align: center;
+    margin: 0 0 53px;
+  }
+  .warranty__image {
+    width: 281px;
+    height: 431px;
+    top: 143px;
+  }
+  .warranty--subtitle {
+    position: absolute;
+    left: 25%;
+    top: 9%;
+    max-width: 520px;
+    text-align: center;
+  }
+  .warranty__block-wrapper {
+    margin-top: 125px;
+  }
+  .warranty__text {
+    margin-left: 107px;
+  }
+
+  .footer--container {
+    max-width: 828px;
+  }
+  .footer__links a {
+    display: block;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .footer__logo, .footer__phone {
+    margin-top: 34px;
   }
 }
 
