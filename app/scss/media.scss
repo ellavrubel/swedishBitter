@@ -429,155 +429,183 @@
   }
   .stat {
     padding: 80px 0 173px;
+
     &__item2 {
       flex: 0 0 19%;
     }
   }
-  .list{
-    &--container{
+  .list {
+    &--container {
       max-width: 632px;
     }
-    &--title{
+
+    &--title {
       max-width: 424px;
       margin: 0 auto;
       padding-bottom: 72px;
     }
-    &__img{
+
+    &__img {
       position: static;
       width: 787px;
       height: 592px;
       background-color: #a4c58c;
       margin: 0 auto;
-      img{
+
+      img {
         width: 48%;
         display: block;
         margin: 0 auto;
       }
-      &-text{
+
+      &-text {
         padding: 45px 20px 44px 50px;
       }
-      &-text-inner{
+
+      &-text-inner {
         right: 27%;
       }
-      &-text-link{
+
+      &-text-link {
         left: 124px;
       }
     }
-    .item-1{
+
+    .item-1 {
       left: 517px;
       top: 493px;
     }
-    .item-2{
+
+    .item-2 {
       top: 616px;
       left: 492px;
     }
-    .item-3{
+
+    .item-3 {
       top: 436px;
       left: 517px;
     }
-    .item-4{
+
+    .item-4 {
       top: 557px;
       left: 517px;
     }
-    .item-5{
+
+    .item-5 {
       top: 436px;
       left: 517px;
     }
-    .item-6{
+
+    .item-6 {
       top: 489px;
       left: 563px;
     }
-    .item-7{
+
+    .item-7 {
       top: 419px;
       left: 517px;
     }
-    .item-8{
+
+    .item-8 {
       top: 535px;
       left: 517px;
     }
-    .item-9{
+
+    .item-9 {
       top: 502px;
       left: 517px;
     }
-    &--btn{
+
+    &--btn {
       right: 27%;
       padding: 20px 57px 20px 90px;
     }
   }
-  .list__text-item.active{
+  .list__text-item.active {
     &::after {
       display: none;
     }
-    }
+  }
 
-  .popular{
+  .popular {
     padding-bottom: 475px;
-    &__inner{
+
+    &__inner {
       flex-wrap: wrap;
       flex-direction: column;
     }
-    &__img{
+
+    &__img {
       order: 2;
       flex: 0 0 100%;
       width: unset;
-      &-woman{
+
+      &-woman {
         width: 100vw;
       }
-      &-text-inner{
+
+      &-text-inner {
         right: 19%;
         bottom: -38%;
       }
     }
-    &__text{
+
+    &__text {
       order: 1;
       flex: 0 0 100%;
-      &--title{
+
+      &--title {
         width: 62%;
         margin: 0 auto;
         text-align: center;
       }
-      &--subtitle{
+
+      &--subtitle {
         padding: 53px 0 50px;
         text-align: center;
       }
-      &-items{
+
+      &-items {
         width: 60%;
         margin: 0 auto;
         padding-bottom: 50px;
       }
-      &-inner{
+
+      &-inner {
         max-width: unset;
       }
     }
   }
-  .history{
-    &__text--title{
+  .history {
+    &__text--title {
       margin: -95px 113px 17px 273px;
     }
   }
-  .participation{
-    &--btn{
+  .participation {
+    &--btn {
       padding: 22px 4px 22px 9px;
-      img{
+
+      img {
         margin-left: -18px;
       }
     }
   }
-  .reviews{
-    &--title{
+  .reviews {
+    &--title {
       padding: 55px 0 19px;
     }
   }
-  .warranty{
-    &__image{
+  .warranty {
+    &__image {
       right: 8%;
     }
   }
-  .footer{
-    &--container{
+  .footer {
+    &--container {
       max-width: 992px;
     }
   }
+}
 
   @media screen and (max-width: 992px) {
     .head {
@@ -740,41 +768,49 @@
     .advantages {
       background-color: #f6f9f3;
       padding-top: 100px;
-      &--title{
+
+      &--title {
         text-align: center;
         margin: 0 auto;
       }
-      &__content{
+
+      &__content {
         left: 6%;
       }
     }
-    .ingredients{
+    .ingredients {
       margin-top: 116px;
-      &--title{
+
+      &--title {
         margin-bottom: 0;
       }
-      &__item3-text{
+
+      &__item3-text {
         ul {
           padding-left: 177px;
           max-width: 84%;
           margin-bottom: 0;
         }
       }
+
       &__item1,
       &__item2,
-      &__item4{
+      &__item4 {
         margin-top: 0;
       }
-      &--btn{
+
+      &--btn {
         padding: 11px;
       }
-      &__list1-item2{
+
+      &__list1-item2 {
         transform: translateY(-38px);
       }
     }
 
     .reviews {
       padding-bottom: 0;
+
       &--title {
         text-align: center;
       }
@@ -799,50 +835,60 @@
       }
     }
 
-    .participation{
-      &__img{
+    .participation {
+      &__img {
         display: none;
       }
-      &__text-wrapper{
+
+      &__text-wrapper {
         flex: 0 0 82%;
-        margin: 0  auto;
+        margin: 0 auto;
         transform: translateX(12px);
       }
-      &--btn{
+
+      &--btn {
         padding: 22px 31px 22px 48px;
       }
     }
-    .warranty{
+    .warranty {
       position: relative;
-      &--container-fluid{
+
+      &--container-fluid {
         padding: 35px 0 80px;
       }
-      &--title{
+
+      &--title {
         text-align: center;
         margin: 0 0 53px;
       }
-      &__image{
+
+      &__image {
         width: 281px;
         height: 431px;
         top: 143px;
       }
-      &--subtitle{
+
+      &--subtitle {
         position: absolute;
-        left: 25%;top: 9%;
+        left: 25%;
+        top: 9%;
         max-width: 520px;
         text-align: center;
       }
-      &__block-wrapper{
+
+      &__block-wrapper {
         margin-top: 125px;
       }
-      &__text{
+
+      &__text {
         margin-left: 107px;
       }
     }
-    .footer{
-      &--container{
+    .footer {
+      &--container {
         max-width: 828px;
       }
+
       &__links {
         a {
           display: block;
@@ -850,9 +896,87 @@
           margin-bottom: 18px;
         }
       }
+
       &__logo,
-      &__phone{
+      &__phone {
         margin-top: 34px;
+      }
+    }
+  }
+
+    @media screen and (max-width: 852px){
+
+      .header{
+        &__img{
+          transform: translate(12px, 10px);
+          img{
+            height: 91%;
+            width: 107%;
+          }
+        }
+      }
+      .list {
+        .item-1,
+        .item-3,
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9 {
+          left: 400px;
+        }
+
+        .item-2 {
+          left: 421px;
+        }
+
+        &__img-text-inner {
+          right: 25%;
+        }
+
+        &--btn {
+          right: 25%;
+        }
+      }
+      .popular{
+        &__text-items{
+          width: 80%;
+        }
+      }
+      .history{
+        &__text-wrapper{
+          max-width: 879px;
+        }
+        &__text--title{
+          padding: 200px 0 6px;
+        }
+      }
+      .advantages{
+        &__content{
+          max-width: 750px;
+        }
+        &__number{
+          left: 14%;
+        }
+      }
+      .ingredients{
+        &__btn{
+          font-size: 11px;
+        }
+        &__list2{
+          line-height: 21px;
+        }
+      }
+      .warranty{
+        &__text{
+          margin-left: 80px;
+        }
+      }
+      .footer{
+        &--container{
+          max-width: 744px;
+        }
       }
     }
 
@@ -879,7 +1003,6 @@
 
 
 
-  }
 
 
 
@@ -919,7 +1042,8 @@
 
 
 
-}
+
+
 
 
 

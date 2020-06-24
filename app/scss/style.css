@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *,
@@ -5557,7 +5558,7 @@ template {
     max-width: 992px;
   }
 }
-@media screen and (max-width: 1084px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .head {
     padding-bottom: 23px;
   }
@@ -5792,6 +5793,68 @@ template {
   }
   .footer__logo, .footer__phone {
     margin-top: 34px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .header__img {
+    transform: translate(12px, 10px);
+  }
+  .header__img img {
+    height: 91%;
+    width: 107%;
+  }
+
+  .list .item-1,
+.list .item-3,
+.list .item-4,
+.list .item-5,
+.list .item-6,
+.list .item-7,
+.list .item-8,
+.list .item-9 {
+    left: 400px;
+  }
+  .list .item-2 {
+    left: 421px;
+  }
+  .list__img-text-inner {
+    right: 25%;
+  }
+  .list--btn {
+    right: 25%;
+  }
+
+  .popular__text-items {
+    width: 80%;
+  }
+
+  .history__text-wrapper {
+    max-width: 879px;
+  }
+  .history__text--title {
+    padding: 200px 0 6px;
+  }
+
+  .advantages__content {
+    max-width: 750px;
+  }
+  .advantages__number {
+    left: 14%;
+  }
+
+  .ingredients__btn {
+    font-size: 11px;
+  }
+  .ingredients__list2 {
+    line-height: 21px;
+  }
+
+  .warranty__text {
+    margin-left: 80px;
+  }
+
+  .footer--container {
+    max-width: 744px;
   }
 }
 
