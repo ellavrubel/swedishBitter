@@ -4156,7 +4156,7 @@ template {
 .header {
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: auto;
 }
 .header__inner {
   display: flex;
@@ -5842,7 +5842,7 @@ template {
     left: 14%;
   }
 
-  .ingredients__btn {
+  .ingredients--btn {
     font-size: 11px;
   }
   .ingredients__list2 {
@@ -5855,6 +5855,22 @@ template {
 
   .footer--container {
     max-width: 744px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    background-position-x: 84%;
+  }
+  .header__img img {
+    transform: translateX(13px);
+    width: 292px;
+  }
+  .header__content-form {
+    transform: translate(-166px, -40px);
+    width: 126%;
+  }
+  .header__content-wrapper {
+    margin-left: 41px;
   }
 }
 

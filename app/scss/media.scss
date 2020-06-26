@@ -961,7 +961,7 @@
         }
       }
       .ingredients{
-        &__btn{
+        &--btn{
           font-size: 11px;
         }
         &__list2{
@@ -979,6 +979,26 @@
         }
       }
     }
+
+@media screen and (max-width: 768px){
+  .header{
+    background-position-x: 84%;
+    &__img{
+      img{
+        transform: translateX(13px);
+        width: 292px;
+      }
+    }
+    &__content-form{
+      transform: translate(-166px, -40px);
+      width: 126%;
+    }
+    &__content-wrapper{
+      margin-left: 41px;
+    }
+  }
+
+}
 
 
 
