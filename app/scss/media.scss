@@ -980,25 +980,215 @@
       }
     }
 
-@media screen and (max-width: 768px){
-  .header{
+@media screen and (max-width: 768px) {
+  .head {
+    &__text {
+      font-size: 14px;
+    }
+  }
+  .header {
     background-position-x: 84%;
-    &__img{
-      img{
+
+    &__img {
+      img {
         transform: translateX(13px);
         width: 292px;
       }
     }
-    &__content-form{
+
+    &__content-form {
       transform: translate(-166px, -40px);
       width: 126%;
     }
-    &__content-wrapper{
+
+    &__content-wrapper {
       margin-left: 41px;
+    }
+
+    &__text {
+      font-size: 16px;
+      width: 224px;
+    }
+  }
+  .list {
+    &-item {
+      width: 41px;
+      height: 41px;
+      font-size: 12px;
+      padding: 3px;
+      font-weight: 700;
+    }
+
+    .item-1,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6,
+    .item-7,
+    .item-8,
+    .item-9 {
+      left: 372px;
+    }
+
+    .item-2 {
+      left: 394px;
+    }
+
+    &__img-text-inner {
+      right: 22%;
+      bottom: -20px;
+    }
+
+    &--btn {
+      right: 22%;
+    }
+
+    &__img {
+      img {
+        width: 51%;
+      }
+    }
+  }
+  .popular {
+    &__text--title {
+      width: 88%;
+    }
+
+    &__text-inner {
+      margin-left: 13px;
+    }
+
+    &__img-text-inner {
+      bottom: -16%;
+      right: 10%;
+    }
+  }
+  .history {
+    &__text--title {
+      margin: 0 30px;
+    }
+
+    &__text-wrapper {
+      max-width: 813px;
+      padding: 23px 70px 102px 27px;
+    }
+
+    &__email {
+      left: 7%;
+      width: 292px;
+      top: 101%;
+    }
+
+    &--btn {
+      text-align: center;
+      padding: 17px 31px;
+    }
+  }
+  .quote{
+    &__text-wrapper{
+      margin-top: 25px;
+    }
+  }
+  .advantages{
+    &__content{
+      max-width: 694px;
+      left: 5%;
+    }
+    &__img-wrapper{
+      img{
+        width: 50%;
+      }
+    }
+    &__img-wrapper1{
+      margin-top: -39px;
+    }
+    &__img-wrapper2{
+      margin-top: -27px;
+    }
+    &__img-wrapper3{
+      margin-top: -31px;
+    }
+    &__text{
+      font-size: 10px;
+      padding-top: 27px;
+    }
+    &__number{
+      font-size: 110px;
+      top: 32%;
+    }
+    &__item{
+      height: 182px;
+    }
+  }
+  .ingredients {
+    &__item4 {
+      margin-top: 24px;
+    }
+
+    &--btn {
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 17px;
+      left: 18%;
+      top: 31%;
+    }
+
+    &__item12-text {
+      padding: 0 3px 50px 10px;
+    }
+  }
+  .reviews {
+    &__tab:first-child {
+      padding-right: 61px;
+    }
+
+    &__item{
+      &:before {
+        width: 31px;
+      }
+    }
+    &__container-text{
+      padding: 54px 83px 250px;
+    }
+    &__more{
+      left: 42%;
+    }
+    &--btn{
+      left: 12%;
+    }
+  }
+  .participation{
+    margin-top: -20px;
+    &--btn{
+      padding: 22px 16px 22px 17px;
+    }
+    &__text{
+      padding: 50px 40px 51px 62px;
+    }
+  }
+  .warranty{
+    &--subtitle{
+      left: 18%;
+    }
+    &__text{
+      margin-left: 24px;
+    }
+    &__image{
+      right: 4%;
+    }
+  }
+  .footer{
+    &__phone{
+      visibility: visible;
     }
   }
 
-}
+
+
+
+  }
 
 
 
