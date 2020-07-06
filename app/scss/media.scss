@@ -1183,13 +1183,119 @@
     &__phone{
       visibility: visible;
     }
+    &__inner{
+      justify-content: space-around;
+    }
+  }
   }
 
+  @media screen and (max-width: 660px){
+
+    .arrow{
+      visibility: hidden;
+    }
+    .title{
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .head{
+      &__text{
+        display: none;
+      }
+      &__inner{
+        justify-content: space-between;
+      }
+    }
+    .header{
+     height: 432px;
+      background-size: cover;
+      &__inner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 0;
+      }
+      &__text{
+        display: none;
+      }
+      &__title{
+        font-size: 30px;
+      }
+      &__addText{
+        display: inline;
+      }
+
+      &__content-form{
+        position: absolute;
+        top: 104%;
+        visibility: hidden;
+        &--btn{
+          bottom: -338px;
+          visibility: visible;
+          padding: 24px 60px 24px 267px;
+          width: 120vw;
+          left: -84px;
+
+        }
+      }
+      &__content-form-inputs{
+        display: none;
+      }
+      &__content-text{
+        max-width: 94%;
+        text-align: center;
+      }
+      &__img{
+        height: 250px;
+        width: 115px;
+        img{
+          width: unset;
+        }
+      }
+    }
+    .stat{
+      padding: 132px 0 74px;
+    }
+    .list{
+      &--title{
+        text-align: center;
+      }
+      img,
+      &__content{
+        visibility: hidden;
+      }
+      &__img{
+        background-color: unset;
+        height: 200px;
+        width: unset;
+        &-text-inner{
+          top: 65%;
+          right: 18%;
+          bottom: unset;
+        }
+      }
+      &--btn{
+        top: -41px;
+        right: -19%;
+        width: 120vw;
+        padding: 20px 57px 20px 205px;
+      }
+    }
+
+    .popular{
+      padding-bottom: 50%;
+      &__text--title{
+        margin: -126px auto 0;
+      }
+      &__img-woman{
+        width: 77vw;
+        margin: 0 auto;
+        display: block;
+      }
+    }
 
 
-
-  }
-
+}
 
 
 

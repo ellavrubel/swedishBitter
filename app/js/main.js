@@ -1,5 +1,6 @@
 
             $(function () {
+
              $('.list__text .list__text-item, .reviews__tabs .reviews__tab').on('click', function () {
 
                  let id = $(this).attr('data-id');
@@ -18,5 +19,5 @@
 
                 new WOW().init();
 
-            });
 
+            });

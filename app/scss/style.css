@@ -4213,6 +4213,9 @@ template {
   font-size: 14px;
   color: #a8c48c;
 }
+.header__content-form__addText {
+  display: none;
+}
 .header__content-form--btn {
   padding: 24px 60px 24px 75px;
   position: absolute;
@@ -5858,6 +5861,10 @@ template {
   }
 }
 @media screen and (max-width: 768px) {
+  .head__text {
+    font-size: 14px;
+  }
+
   .header {
     background-position-x: 84%;
   }
@@ -5871,6 +5878,260 @@ template {
   }
   .header__content-wrapper {
     margin-left: 41px;
+  }
+  .header__text {
+    font-size: 16px;
+    width: 224px;
+  }
+
+  .list-item {
+    width: 41px;
+    height: 41px;
+    font-size: 12px;
+    padding: 3px;
+    font-weight: 700;
+  }
+  .list .item-1,
+.list .item-3,
+.list .item-4,
+.list .item-5,
+.list .item-6,
+.list .item-7,
+.list .item-8,
+.list .item-9 {
+    left: 372px;
+  }
+  .list .item-2 {
+    left: 394px;
+  }
+  .list__img-text-inner {
+    right: 22%;
+    bottom: -20px;
+  }
+  .list--btn {
+    right: 22%;
+  }
+  .list__img img {
+    width: 51%;
+  }
+
+  .popular__text--title {
+    width: 88%;
+  }
+  .popular__text-inner {
+    margin-left: 13px;
+  }
+  .popular__img-text-inner {
+    bottom: -16%;
+    right: 10%;
+  }
+
+  .history__text--title {
+    margin: 0 30px;
+  }
+  .history__text-wrapper {
+    max-width: 813px;
+    padding: 23px 70px 102px 27px;
+  }
+  .history__email {
+    left: 7%;
+    width: 292px;
+    top: 101%;
+  }
+  .history--btn {
+    text-align: center;
+    padding: 17px 31px;
+  }
+
+  .quote__text-wrapper {
+    margin-top: 25px;
+  }
+
+  .advantages__content {
+    max-width: 694px;
+    left: 5%;
+  }
+  .advantages__img-wrapper img {
+    width: 50%;
+  }
+  .advantages__img-wrapper1 {
+    margin-top: -39px;
+  }
+  .advantages__img-wrapper2 {
+    margin-top: -27px;
+  }
+  .advantages__img-wrapper3 {
+    margin-top: -31px;
+  }
+  .advantages__text {
+    font-size: 10px;
+    padding-top: 27px;
+  }
+  .advantages__number {
+    font-size: 110px;
+    top: 32%;
+  }
+  .advantages__item {
+    height: 182px;
+  }
+
+  .ingredients__item4 {
+    margin-top: 24px;
+  }
+  .ingredients--btn {
+    text-align: center;
+  }
+  .ingredients__text {
+    font-size: 17px;
+    left: 18%;
+    top: 31%;
+  }
+  .ingredients__item12-text {
+    padding: 0 3px 50px 10px;
+  }
+
+  .reviews__tab:first-child {
+    padding-right: 61px;
+  }
+  .reviews__item:before {
+    width: 31px;
+  }
+  .reviews__container-text {
+    padding: 54px 83px 250px;
+  }
+  .reviews__more {
+    left: 42%;
+  }
+  .reviews--btn {
+    left: 12%;
+  }
+
+  .participation {
+    margin-top: -20px;
+  }
+  .participation--btn {
+    padding: 22px 16px 22px 17px;
+  }
+  .participation__text {
+    padding: 50px 40px 51px 62px;
+  }
+
+  .warranty--subtitle {
+    left: 18%;
+  }
+  .warranty__text {
+    margin-left: 24px;
+  }
+  .warranty__image {
+    right: 4%;
+  }
+
+  .footer__phone {
+    visibility: visible;
+  }
+  .footer__inner {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 660px) {
+  .arrow {
+    visibility: hidden;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .head__text {
+    display: none;
+  }
+  .head__inner {
+    justify-content: space-between;
+  }
+
+  .header {
+    height: 432px;
+    background-size: cover;
+  }
+  .header__inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 0;
+  }
+  .header__text {
+    display: none;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+  .header__addText {
+    display: inline;
+  }
+  .header__content-form {
+    position: absolute;
+    top: 104%;
+    visibility: hidden;
+  }
+  .header__content-form--btn {
+    bottom: -338px;
+    visibility: visible;
+    padding: 24px 60px 24px 267px;
+    width: 120vw;
+    left: -84px;
+  }
+  .header__content-form-inputs {
+    display: none;
+  }
+  .header__content-text {
+    max-width: 94%;
+    text-align: center;
+  }
+  .header__img {
+    height: 250px;
+    width: 115px;
+  }
+  .header__img img {
+    width: unset;
+  }
+
+  .stat {
+    padding: 132px 0 74px;
+  }
+
+  .list--title {
+    text-align: center;
+  }
+  .list img, .list__content {
+    visibility: hidden;
+  }
+  .list__img {
+    background-color: unset;
+    height: 200px;
+    width: unset;
+  }
+  .list__img-text-inner {
+    top: 65%;
+    right: 18%;
+    bottom: unset;
+  }
+  .list--btn {
+    top: -41px;
+    right: -19%;
+    width: 120vw;
+    padding: 20px 57px 20px 205px;
+  }
+
+  .popular {
+    padding-bottom: 50%;
+  }
+  .popular__text--title {
+    margin: -126px auto 0;
+  }
+  .popular__img-woman {
+    width: 77vw;
+    margin: 0 auto;
+    display: block;
   }
 }
 
