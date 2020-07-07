@@ -6513,6 +6513,63 @@ template {
     font-size: 12px;
     line-height: 22px;
   }
+
+  .participation__text-wrapper {
+    flex: 0 0 100%;
+    padding: 0 15px;
+    transform: translateX(0);
+  }
+  .participation__text {
+    padding: 0 13px 0 17px;
+  }
+  .participation__p1, .participation__p2 {
+    font-size: 14px;
+    text-align: left;
+    width: 92%;
+    margin-left: 20px;
+  }
+  .participation--btn {
+    width: 101vw;
+    margin-top: 0;
+    padding: 22px 78px;
+  }
+  .participation--subtitle {
+    width: 286px;
+    margin: 42px auto;
+  }
+
+  .warranty {
+    height: 126vh;
+  }
+  .warranty--subtitle {
+    left: 0;
+  }
+  .warranty__image {
+    top: 200px;
+    right: 16%;
+  }
+  .warranty__block {
+    border: none;
+    padding: 29px 0 97px;
+  }
+  .warranty__block-wrapper {
+    background-color: #f6f9f3;
+    bottom: -30px;
+    padding-bottom: 0;
+  }
+  .warranty__but {
+    left: 43%;
+    background-color: #f6f9f3;
+  }
+  .warranty--btn {
+    width: 100vw;
+    right: -20px;
+    padding: 23px 111px 13px;
+  }
+
+  .footer {
+    padding-bottom: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

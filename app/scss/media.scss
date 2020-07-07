@@ -1688,6 +1688,62 @@
        line-height: 22px;
       }
     }
+    .participation{
+      &__text-wrapper{
+        flex: 0 0 100%;
+        padding: 0 15px;
+        transform: translateX(0);
+      }
+      &__text{
+        padding: 0 13px 0 17px;
+      }
+      &__p1,
+      &__p2{
+        font-size: 14px;
+        text-align: left;
+        width: 92%;
+        margin-left: 20px;
+      }
+      &--btn{
+        width: 101vw;
+        margin-top: 0;
+        padding: 22px 78px;
+      }
+      &--subtitle{
+        width: 286px;
+        margin: 42px auto;
+      }
+    }
+    .warranty{
+      height: 126vh;
+      &--subtitle{
+        left: 0;
+      }
+      &__image{
+        top: 200px;right: 16%;
+      }
+      &__block{
+        border: none;
+        padding: 29px 0 97px;
+        &-wrapper{
+          background-color: #f6f9f3;
+          bottom: -30px;
+          padding-bottom: 0;
+        }
+      }
+      &__but{
+        left: 43%;
+        background-color: #f6f9f3;
+      }
+      &--btn{
+        width: 100vw;
+        right: -20px;
+        padding: 23px 111px 13px;
+      }
+    }
+    .footer{
+      padding-bottom: 13px;
+    }
 
 
 
