@@ -10,6 +10,7 @@ html {
 
 body{
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 a{
@@ -57,7 +58,7 @@ input{
   font-weight: 700;
   text-transform: uppercase;
   transition: all .5s ease-in-out;
-  border-radius: 3px;
+  //border-radius: 3px;
   &:hover{
     background-color: rgba(126, 178, 82, 0.21);
     color: #7eb252;
