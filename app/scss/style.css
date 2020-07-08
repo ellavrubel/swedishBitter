@@ -6646,6 +6646,45 @@ template {
   .ingredients--title {
     margin-bottom: -35px;
   }
+  .ingredients__item12-text-wrapper {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .reviews--title {
+    margin-top: -20px;
+  }
+  .reviews .author {
+    padding-top: 19px;
+  }
+  .reviews__item:first-child {
+    padding-bottom: 58px;
+  }
+  .reviews--btn {
+    padding: 18px 74px 1px;
+  }
+  .reviews__more {
+    left: 30%;
+  }
+
+  .participation--btn {
+    padding: 22px 74px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .warranty__block-wrapper {
+    bottom: -22px;
+  }
+  .warranty__block-wrapper p {
+    font-size: 14px;
+  }
+  .warranty__p1 {
+    margin-bottom: 20px;
+  }
+  .warranty--btn {
+    padding: 23px 88px 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

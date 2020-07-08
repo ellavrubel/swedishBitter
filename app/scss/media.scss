@@ -1828,10 +1828,49 @@
         &--title{
           margin-bottom: -35px;
         }
+        &__item12-text-wrapper{
+          padding-top: 0;
+          margin-top: 0;
+        }
       }
-
-
-
+      .reviews{
+        &--title{
+          margin-top: -20px;
+        }
+        .author{
+          padding-top: 19px;
+        }
+        &__item:first-child{
+          padding-bottom: 58px;
+        }
+        &--btn{
+          padding: 18px 74px 1px;
+        }
+        &__more{
+          left: 30%;
+        }
+      }
+      .participation{
+        &--btn{
+          padding: 22px 74px;
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+      .warranty{
+        &__block-wrapper{
+          bottom: -22px;
+          p{
+            font-size: 14px;
+          }
+        }
+        &__p1{
+          margin-bottom: 20px;
+        }
+        &--btn{
+          padding: 23px 88px 13px;
+        }
+      }
 }
 
 
