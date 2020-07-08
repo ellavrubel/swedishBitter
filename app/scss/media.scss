@@ -1744,37 +1744,95 @@
     .footer{
       padding-bottom: 13px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
+    @media  screen  and (max-width: 412px){
+      .warranty {
+        height: 114vh;
+
+        &__block-wrapper {
+          bottom: -16px;
+        }
+      }
+    }
+
+    @media  screen  and (max-width: 376px){
+
+      .header{
+        &__content-form--btn{
+          bottom: -297px;
+          left: 15px;
+          padding: 24px 60px 24px 183px;
+        }
+      }
+      .list{
+        &__text-item{
+          display: flex;
+        }
+        &__img-text{
+          padding: 40px 20px;
+        }
+        &__img-text-inner{
+          width: 359px;
+        }
+        &__img-text-link{
+          left: 100px;
+        }
+        &__img-text-description{
+          font-size: 14px;
+        }
+        &--btn{
+          padding: 20px 57px 6px 139px;
+          top: -73px;
+        }
+      }
+      .popular{
+        &__text--title{
+          margin: -174px auto 0;
+        }
+        &__text-item{
+          font-size: 14px;
+          line-height: 22px;
+        }
+        &__text-items{
+          padding-bottom: 36px;
+        }
+        &__img-text-inner{
+          bottom: -98%;
+        }
+      }
+      .history{
+        &--btn{
+          transform: translateX(-57px);
+        }
+        &__email{
+          top: 150%;
+        }
+      }
+      .advantages{
+        &__content{
+          left: -33px;
+        }
+        &--title{
+          max-width: 323px;
+        }
+      }
+      .ingredients{
+        margin-top: 90px;
+        &__list1-item1 {
+          transform: translateY(-30px);
+        }
+        &__list1-item2 {
+          transform: translateY(-8px);
+        }
+        &--title{
+          margin-bottom: -35px;
+        }
+      }
+
+
+
+}
 
 
 

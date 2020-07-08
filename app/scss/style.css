@@ -6571,5 +6571,81 @@ template {
     padding-bottom: 13px;
   }
 }
+@media screen and (max-width: 412px) {
+  .warranty {
+    height: 114vh;
+  }
+  .warranty__block-wrapper {
+    bottom: -16px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .header__content-form--btn {
+    bottom: -297px;
+    left: 15px;
+    padding: 24px 60px 24px 183px;
+  }
+
+  .list__text-item {
+    display: flex;
+  }
+  .list__img-text {
+    padding: 40px 20px;
+  }
+  .list__img-text-inner {
+    width: 359px;
+  }
+  .list__img-text-link {
+    left: 100px;
+  }
+  .list__img-text-description {
+    font-size: 14px;
+  }
+  .list--btn {
+    padding: 20px 57px 6px 139px;
+    top: -73px;
+  }
+
+  .popular__text--title {
+    margin: -174px auto 0;
+  }
+  .popular__text-item {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .popular__text-items {
+    padding-bottom: 36px;
+  }
+  .popular__img-text-inner {
+    bottom: -98%;
+  }
+
+  .history--btn {
+    transform: translateX(-57px);
+  }
+  .history__email {
+    top: 150%;
+  }
+
+  .advantages__content {
+    left: -33px;
+  }
+  .advantages--title {
+    max-width: 323px;
+  }
+
+  .ingredients {
+    margin-top: 90px;
+  }
+  .ingredients__list1-item1 {
+    transform: translateY(-30px);
+  }
+  .ingredients__list1-item2 {
+    transform: translateY(-8px);
+  }
+  .ingredients--title {
+    margin-bottom: -35px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
