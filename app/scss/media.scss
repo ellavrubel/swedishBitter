@@ -1957,16 +1957,145 @@
           left: 32px;
         }
       }
-
-
-
-
-
-
-
-
-
     }
+
+@media screen and (max-width: 320px) {
+
+  .head {
+    &__logo {
+      max-width: 148px;
+
+      img {
+        width: 77%;
+      }
+    }
+  }
+  .header {
+    &__content-form--btn {
+      bottom: -299px;
+      left: 49px;
+      padding: 24px 32px 24px 163px;
+    }
+  }
+  .stat {
+    padding: 90px 0 8px;
+
+    &__item {
+      padding-bottom: 21px;
+    }
+
+    &__item-number,
+    &__underscore,
+    &__item-text {
+      padding-left: 22px;
+    }
+
+  }
+
+  .list{
+    &--title{
+      max-width: 298px;
+    }
+    &__img-text{
+      padding: 27px 20px;
+      line-height: 24px;
+    }
+    &__img-text-inner{
+      width: 319px;
+      padding: 12px;
+      top: 72%;
+    }
+    &__img-text-description{
+      font-size: 13px;
+    }
+    &__img-text-link{
+      left: 83px;
+    }
+    &--btn{
+      padding: 20px 29px 6px 110px;
+    }
+  }
+  .popular {
+    padding-bottom: 68%;
+    &__text--title {
+      width: 94%;
+    }
+
+    &__text--subtitle {
+      padding: 29px 0;
+    }
+
+    &__text-item {
+      padding-left: 9px;
+
+      &:not(:last-child) {
+        padding-bottom: 17px;
+      }
+    }
+    &__img-text-inner{
+      bottom: -110%;
+    }
+    &__img-text-description{
+      padding: 0 13px 18px;
+    }
+    &--btn{
+      padding: 24px 20px 24px 36px;
+    }
+  }
+  .history{
+    &__email{
+      top: 138%;
+      left: 4%;
+    }
+    &--btn{
+      transform: translateX(-13px);
+      padding: 17px 31px 17px 85px;
+    }
+    &__img{
+      margin-bottom: 101%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 
 
 
