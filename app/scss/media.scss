@@ -1992,31 +1992,37 @@
 
   }
 
-  .list{
-    &--title{
+  .list {
+    &--title {
       max-width: 298px;
     }
-    &__img-text{
+
+    &__img-text {
       padding: 27px 20px;
       line-height: 24px;
     }
-    &__img-text-inner{
+
+    &__img-text-inner {
       width: 319px;
       padding: 12px;
       top: 72%;
     }
-    &__img-text-description{
+
+    &__img-text-description {
       font-size: 13px;
     }
-    &__img-text-link{
+
+    &__img-text-link {
       left: 83px;
     }
-    &--btn{
+
+    &--btn {
       padding: 20px 29px 6px 110px;
     }
   }
   .popular {
     padding-bottom: 68%;
+
     &__text--title {
       width: 94%;
     }
@@ -2032,27 +2038,115 @@
         padding-bottom: 17px;
       }
     }
-    &__img-text-inner{
+
+    &__img-text-inner {
       bottom: -110%;
     }
-    &__img-text-description{
+
+    &__img-text-description {
       padding: 0 13px 18px;
     }
-    &--btn{
+
+    &--btn {
       padding: 24px 20px 24px 36px;
     }
   }
-  .history{
-    &__email{
+  .history {
+    &__email {
       top: 138%;
       left: 4%;
     }
-    &--btn{
+
+    &--btn {
       transform: translateX(-13px);
       padding: 17px 31px 17px 85px;
     }
-    &__img{
+
+    &__img {
       margin-bottom: 101%;
+    }
+  }
+  .advantages {
+    &--title {
+      max-width: 298px;
+    }
+
+    &__content {
+      left: -63px;
+    }
+
+    &__number1 {
+      left: 32%;
+    }
+  }
+  .ingredients {
+    &--title {
+      margin-top: 60px;
+    }
+
+    &__list1 {
+      font-size: 14px;
+    }
+
+    &__item3-text {
+      ul {
+        padding-left: 14px;
+      }
+    }
+
+    &__item {
+      margin: 5px 10px;
+    }
+
+    &--btn {
+      right: 14px;
+      padding: 11px 11px 11px 60px;
+    }
+  }
+  .reviews {
+    &__tab:first-child {
+      padding-left: 53px;
+      padding-right: 26px;
+      text-align: center;
+    }
+
+    &__tab:nth-child(2) {
+      padding-left: 25px;
+    }
+    &__more{
+      left: 28%;
+      top: -132px;
+    }
+    &--btn{
+      padding: 18px 47px 1px;
+      line-height: 18px;
+      top: -75px;
+    }
+  }
+  .participation{
+    &--subtitle{
+      line-height: 20px;
+      margin: 23px auto;
+    }
+    &--btn{
+      padding: 22px 62px;
+    }
+  }
+  .warranty{
+    height: 169vh;
+    &--subtitle{
+      max-width: 265px;
+      left: 27px; top: 9%;
+    }
+    &__image{
+      top: 226px;
+      right: 6%;
+    }
+    &--btn{
+      padding: 23px 62px 13px;
+    }
+    &__but{
+      font-size: 18px;
     }
   }
 

@@ -6845,6 +6845,78 @@ template {
   .history__img {
     margin-bottom: 101%;
   }
+
+  .advantages--title {
+    max-width: 298px;
+  }
+  .advantages__content {
+    left: -63px;
+  }
+  .advantages__number1 {
+    left: 32%;
+  }
+
+  .ingredients--title {
+    margin-top: 60px;
+  }
+  .ingredients__list1 {
+    font-size: 14px;
+  }
+  .ingredients__item3-text ul {
+    padding-left: 14px;
+  }
+  .ingredients__item {
+    margin: 5px 10px;
+  }
+  .ingredients--btn {
+    right: 14px;
+    padding: 11px 11px 11px 60px;
+  }
+
+  .reviews__tab:first-child {
+    padding-left: 53px;
+    padding-right: 26px;
+    text-align: center;
+  }
+  .reviews__tab:nth-child(2) {
+    padding-left: 25px;
+  }
+  .reviews__more {
+    left: 28%;
+    top: -132px;
+  }
+  .reviews--btn {
+    padding: 18px 47px 1px;
+    line-height: 18px;
+    top: -75px;
+  }
+
+  .participation--subtitle {
+    line-height: 20px;
+    margin: 23px auto;
+  }
+  .participation--btn {
+    padding: 22px 62px;
+  }
+
+  .warranty {
+    height: 169vh;
+  }
+  .warranty--subtitle {
+    max-width: 265px;
+    left: 27px;
+    top: 9%;
+  }
+  .warranty__image {
+    top: 226px;
+    right: 6%;
+  }
+  .warranty--btn {
+    padding: 23px 62px 13px;
+  }
+  .warranty__but {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
