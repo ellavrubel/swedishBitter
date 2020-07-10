@@ -6290,6 +6290,11 @@ template {
   }
 }
 @media screen and (max-width: 420px) {
+  .wow {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
+
   .head__logo {
     padding-top: 25px;
   }
