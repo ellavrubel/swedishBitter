@@ -1,1 +1,2 @@
 $(function(){$(".list__text .list__text-item, .reviews__tabs .reviews__tab").on("click",function(){let t=$(this).attr("data-id");return $(".list__content, .reviews__container-text").find(".list-item, .reviews__content-item").removeClass("active-list","active-tab").hide(),$(".list__text .tabs, .reviews__content").find(".list__text-item, .reviews__tab").removeClass("active"),$(this).addClass("active"),$("#"+t).addClass("active-list","active-tab").fadeIn(),!1}),(new WOW).init()});
+
